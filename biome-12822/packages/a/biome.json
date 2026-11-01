@@ -1,0 +1,5 @@
+{
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true, "root": "../.." },
+  "files": { "includes": ["**", "!**/*.scss"] },
+  "linter": { "rules": { "nursery": { "noFloatingPromises": "error" } } }
+}
