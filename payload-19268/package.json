@@ -1,0 +1,32 @@
+{
+  "name": "payload-relationship-table-blank",
+  "version": "1.0.0",
+  "description": "Repro: a join table with an async server Cell blanks the whole admin when cacheComponents is on",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev",
+    "generate:importmap": "payload generate:importmap"
+  },
+  "dependencies": {
+    "@payloadcms/next": "3.92.1",
+    "@payloadcms/ui": "3.92.1",
+    "graphql": "^16.8.1",
+    "next": "16.3.3",
+    "payload": "3.92.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "@payloadcms/db-sqlite": "3.92.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": "^22.23.4 || >=24.22.1"
+  }
+}
